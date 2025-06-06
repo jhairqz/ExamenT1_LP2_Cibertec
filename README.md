@@ -64,17 +64,17 @@ Ejecuta la clase RegistroCertificacion para abrir la interfaz.
 
 Nota: Al iniciar, Hibernate usará create-drop, por lo que la base de datos se recreará cada vez. Para conservar los datos, cambia el valor a update.
 
-📸 Capturas
+## 📸 Capturas
 
 ## Registro
 
-![Registro](https://prnt.sc/3d9F4dwDWn40)
+![Registro](https://i.imgur.com/UBVXSjm.png)
 
 ## Listado
 
-![Listado](https://prnt.sc/HQdjX6Cegunt)
+![Listado](https://i.imgur.com/TcYNqNo.png)
 
 
-Autor
-Gustavo Jhair Salguerano Salazar
+## 🚀 Autor
+Gustavo Jhair Salguerano Salazar // 
 Estudiante de Computación e Informática – Cibertec

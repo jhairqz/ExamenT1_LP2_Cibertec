@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="LPII_T1_SalgueranoSalazar_GustavoJhair"  >
+
+		<class>pe.edu.cibertec.t1.entity.Certificacion</class>
+		<class>pe.edu.cibertec.t1.entity.Cliente</class>
+		<class>pe.edu.cibertec.t1.entity.Especialista</class>
+		<class>pe.edu.cibertec.t1.entity.Tipoauditoria</class>
+
+		<properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/BD1_i202111582?serverTimezone=UTC" />
+            <property name="javax.persistence.jdbc.user" value="root" />
+            <property name="javax.persistence.jdbc.password" value="1234" />
+            <!--<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" /> -->
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
+            <property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<!--
+			create: Crea todas las tablas desde cero cada vez que inicia, y borra las existentes
+			create-drop: Igual que create, pero elimina las tablas al apagar la aplicación.
+			update: Crea tablas si no existen y actualiza columnas si faltan. No borra nada.
+			validate: Valida que las tablas y columnas existan, pero no las crea ni las actualiza.
+			none: No hace nada con las tablas.
+			-->
+        </properties>
+	</persistence-unit>
+</persistence>
+

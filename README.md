@@ -50,7 +50,7 @@ La tabla `Certificacion` cuenta con claves foráneas hacia las demás entidades.
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/sistema-certificaciones.git
+   git clone https://github.com/jhairqz/ExamenT1_LP2_Cibertec.git
 
 Importa el proyecto en tu IDE (por ejemplo, Eclipse o IntelliJ) como proyecto Maven.
 
